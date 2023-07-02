@@ -1,0 +1,79 @@
+.button {
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 20px;
+	border: none;
+	border-radius: 8px;
+	transition: filter 0.5s;
+}
+.containedPrimary {
+	background-color: #0275d8;
+	color: #000;
+	border: 2px solid transparent;
+
+}
+.containedPrimary:hover {
+	filter: brightness(70%);
+}
+.outlinedPrimary {
+	border: 2px solid #00529a;
+	background-color: transparent;
+	color: #0275d8;
+}
+.outlinedPrimary:hover {
+	filter: brightness(140%);
+}
+
+.containedSuccess {
+	background-color: #5cb85c;
+	color: #000;
+	border: 2px solid transparent;
+
+}
+.containedSuccess:hover {
+	filter: brightness(70%);
+}
+.outlineSuccess {
+	border: 2px solid #5cb85c;
+	background-color: transparent;
+	color: #5cb85c;
+}
+.outlineSuccess:hover {
+	filter: brightness(140%);
+}
+
+.containedWarning {
+	background-color: #f0ad4e;
+	color: #000;
+	border: 2px solid transparent;
+
+}
+.containedWarning:hover {
+	filter: brightness(70%);
+}
+.outlineWarning {
+	border: 2px solid #f0ad4e;
+	background-color: transparent;
+	color: #f0ad4e;
+}
+.outlineWarning:hover {
+	filter: brightness(140%);
+}
+
+.containedDanger {
+	background-color: #d9534f;
+	color: #000;
+	border: 2px solid transparent;
+
+}
+.containedDanger:hover {
+	filter: brightness(70%);
+}
+.outlineDanger {
+	border: 2px solid #d9534f;
+	background-color: transparent;
+	color: #d9534f;
+}
+.outlineDanger:hover {
+	filter: brightness(140%);
+}
