@@ -21,7 +21,7 @@
 	color: #0275d8;
 }
 .outlinedPrimary:hover {
-	filter: brightness(140%);
+	filter: brightness(160%);
 }
 
 .containedSuccess {
@@ -39,7 +39,7 @@
 	color: #5cb85c;
 }
 .outlineSuccess:hover {
-	filter: brightness(140%);
+	filter: brightness(160%);
 }
 
 .containedWarning {
@@ -57,7 +57,7 @@
 	color: #f0ad4e;
 }
 .outlineWarning:hover {
-	filter: brightness(140%);
+	filter: brightness(160%);
 }
 
 .containedDanger {
@@ -75,5 +75,5 @@
 	color: #d9534f;
 }
 .outlineDanger:hover {
-	filter: brightness(140%);
+	filter: brightness(160%);
 }
