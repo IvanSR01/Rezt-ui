@@ -3,7 +3,7 @@ import styles from './Checkbox.module.css'
 
 interface ICheckBox {
 	value: boolean
-	setValue?: (value: any) => void
+	setValue?: (value?: any) => void
 }
 
 const Checkbox: FC<ICheckBox> = ({ value, setValue }) => {
